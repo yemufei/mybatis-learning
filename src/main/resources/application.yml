@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/geyule
+    username: root
+    password: 1jcsxdL@
+    driver-class-name: com.mysql.jdbc.Driver
+    #type: com.zaxxer.hikari.HikariDataSource
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
